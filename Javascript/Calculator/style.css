@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    border: 1px solid #717377;
+    border-radius: 16px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 5px 20px rgba(133, 115, 119, 0.7);
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 70px;
+    padding: 20px;
+    border: none;
+    font-size: 50px;
+    text-align: right;
+    background: transparent;
+    margin: 20px;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #ffffff;
+    border: none;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+
+.back{
+    margin-left: 0;
+    margin-right: 23px;
+}
+
+button:hover{
+    background: #7173776f;
+    color: rgb(85, 246, 96);
+}
+
+.equal{
+    background: rgb(255, 115, 0);
+}
+
+.equal:hover{
+    background: rgb(249, 81, 43);
+    color: rgb(1, 157, 254);
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.operator{
+    color: rgb(249, 81, 43);
+}
+
+.operator:hover{
+    color: aquamarine;
+}
